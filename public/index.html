@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" v-model="name">
+      <input type="file" v-on:change="selectFile($event)">
+      <br>
+      <button v-on:click="sendFile()">Send</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
